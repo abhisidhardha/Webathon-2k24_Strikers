@@ -4,7 +4,7 @@ function Home() {
     return(
         <div className="home vh-100">
             <div className="">
-                <p className=" container text-white" style={{fontSize:'18px'}}>Welcome to DevHive, where we pave the path for aspiring student developers to upscale their careers and reach new heights in the tech world. Whether you're just starting your journey or looking to take the next big step, we offer a comprehensive range of resources and opportunities tailored to your needs.
+                <p className=" container text-white" style={{fontSize:'18px'}}><span className="display-3">Welcome to DevHive</span>, where we pave the path for aspiring student developers to upscale their careers and reach new heights in the tech world. Whether you're just starting your journey or looking to take the next big step, we offer a comprehensive range of resources and opportunities tailored to your needs.
 
 <br />At our core, we believe in empowering student developers with the skills, knowledge, and connections necessary to thrive in today's rapidly evolving tech industry. From coding bootcamps and online courses to internships and mentorship programs, we provide a diverse array of pathways for you to explore and grow.
 

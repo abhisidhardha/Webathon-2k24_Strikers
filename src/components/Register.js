@@ -10,7 +10,7 @@ function Register(){
     }
     return(
         <div>
-            <div className="text-white vh-50 d-flexjustify-content-center align-items-center">
+            <div className="h-50 d-flexjustify-content-center align-items-center">
             <form className="w-50 rounded-3 mx-auto" onSubmit={handleSubmit(onRegisterFormSubmit)}>
                 <h1 className="text-center display-1">Register</h1>
                 <div className="row w-100"> 
@@ -38,7 +38,7 @@ function Register(){
                 <input type="submit" className="btn btn-success d-block mx-auto" value="Submit" />
             </form>
             <p className="text-center">
-                Already Registered ! <Link to='/login' className="text-white">Login
+                Already Registered ! <Link to='/login' className="text-info">Login
                 </Link>
             </p>
             </div>   

@@ -11,7 +11,7 @@ function Login(){
       <div>
 
             
-      <div className="vh-100 bg-primary text-white d-flex justify-content-center align-items-center">
+      <div className= "d-flex justify-content-center align-items-center">
             <form className="w-50 rounded-3 mx-auto" onSubmit={handleSubmit(onLoginFormSubmit)}>
                 <h1 className="text-center display-1 mb-5">Login</h1>
                 <div className="w-100"> 
@@ -28,7 +28,7 @@ function Login(){
             
           </div>
           <p className="text-center">
-                New ! <Link to='/register' className="text-white">Register
+                New ! <Link to='/register' className="text-info">Register
                 </Link>
             </p>
         </div>
