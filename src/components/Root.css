@@ -1,9 +1,0 @@
-.navbar{
-    backdrop-filter: blur(12px);
-    background: linear-gradient(to right,rgba(115, 0, 255, 0.5),rgba(154, 2, 255, 0.5));
-    color: white;
-    
-} 
-.navbar li:hover{
-    background-color: rgba(255, 255, 255, 0.356);
-}
